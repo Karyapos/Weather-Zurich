@@ -1,0 +1,12 @@
+```dax
+ParameterLabel = 
+    SWITCH(
+        TRUE(),
+        'meteo_zurich'[parameter] = "p", "Pressure",
+        'meteo_zurich'[parameter] = "RainDur", "Rain Duration",
+        'meteo_zurich'[parameter] = "T", "Temperature",
+        'meteo_zurich'[parameter] = "T_max_h1", "Max Temperature",
+        'meteo_zurich'[parameter] = "StrGlo", "Sun Radiation",
+        'meteo_zurich'[parameter]  // default: show original if unmatched
+    )
+```
