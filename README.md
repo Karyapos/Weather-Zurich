@@ -35,5 +35,7 @@ This project analyzes over 30 years of daily weather data in Zurich, sourced fro
  ### 🧠 Lessons Learned & Challenges
   
     - Organizing and transforming the dataset in **SQL** helped me understand temporal patterns and allowed for clean monthly, yearly, and daily aggregations.
-    - A key challenge was making the slicer control multiple visuals and tables in Power BI without unpivoting the data. This was addressed using DAX logic combined with an auxiliary "Measurements" table that enabled consistent filtering. A similar technique was used to translate slicer values into readable labels, mapping raw codes (e.g., "T_max_h1") to descriptive names (e.g., "Max Temperature") through a SWITCH expression.
+    - A key challenge was making the slicer control multiple visuals and tables in Power BI without unpivoting the data. This was addressed using DAX logic 
+    combined with an auxiliary "Measurements" table that enabled consistent filtering. A similar technique was used to translate slicer values into readable labels,
+    mapping raw codes (e.g., "T_max_h1") to descriptive names (e.g., "Max Temperature") through a SWITCH expression.
     - I learned how to **combine different time granularities** in a single dashboard (daily, monthly, yearly) and maintain meaningful interactivity.
