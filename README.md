@@ -32,7 +32,7 @@ This project analyzes over 30 years of daily weather data in Zurich, sourced fro
 - Since **2017**, **average solar radiation** has consistently exceeded **140 W/m²** while before **2000**, most yearly averages remained **below 120 W/m²**.
 
 
-    ### 🧠 Lessons Learned & Challenges
+ ### 🧠 Lessons Learned & Challenges
   
     - Organizing and transforming the dataset in **SQL** helped me understand temporal patterns and allowed for clean monthly, yearly, and daily aggregations.
     - A key challenge was making the slicer control multiple visuals and tables in Power BI without unpivoting the data. This was addressed using DAX logic combined with an auxiliary "Measurements" table that enabled consistent filtering. A similar technique was used to translate slicer values into readable labels, mapping raw codes (e.g., "T_max_h1") to descriptive names (e.g., "Max Temperature") through a SWITCH expression.
