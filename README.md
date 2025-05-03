@@ -1,8 +1,6 @@
-#### **Weather Trends in Zurich (1994–2024)**
+# Weather Trends in Zurich (1994–2024)
 
 ## **A Data Analysis Project using SQL & Power BI**
-
----
 
 ### 🗂️ Project Overview
 
